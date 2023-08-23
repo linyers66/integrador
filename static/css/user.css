@@ -1,0 +1,64 @@
+.basicinfo, .options {
+  width: 40vw;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 1rem;
+  gap: 1.5rem;
+  padding: 1rem;
+  background-color: #1c2541;
+  border-radius: 1%;
+}
+
+.basicinfo {
+  display: flex;
+}
+
+.basicinfo .logo img {
+    width: 5rem;
+}
+
+.options {
+  margin-bottom: 3rem;
+}
+
+.options-list li {
+    padding: 1.5rem;
+    list-style: none;
+}
+
+.options-list a {
+    text-decoration: none;
+}
+
+.options-list a:hover {
+    text-decoration: none;
+}
+
+.options-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.basicinfo p, .options p {
+  color: #3a506b;
+}
+.basicinfo p a, .options p a {
+  color: #3a506b;
+  transition: all 0.2s;
+}
+
+.basicinfo p a:hover, .options p a:hover {
+  color: #0b132b;
+}
+
+.basicinfo a, .options a {
+  align-self: flex-start;
+  color: #3a506b;
+  transition: all 0.2s;
+}
+
+.basicinfo a:hover, .options a:hover {
+  color: #0b132b;
+}
